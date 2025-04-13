@@ -1,0 +1,76 @@
+{
+  "project": [
+    {
+      "id": "1",
+      "title": "Sample Project",
+      "description": "A demo project for testing",
+      "is_published": true,
+      "participant_scoring": "points",
+      "username": "admin",
+      "instructions": "Follow the clues to complete the challenge.",
+      "initial_clue": "Start at the old oak tree.",
+      "homescreen_display": "Welcome to the scavenger hunt!"
+    },
+    {
+      "id": "ea4e",
+      "title": "Test Local API",
+      "description": "Description",
+      "instructions": "Description",
+      "initial_clue": "Description",
+      "homescreen_display": "",
+      "is_published": false,
+      "participant_scoring": "",
+      "username": "testuser"
+    }
+  ],
+  "location": [
+    {
+      "id": "1",
+      "project_id": 1,
+      "location_name": "Old Oak Tree",
+      "location_trigger": "GPS",
+      "location_position": "40.7128,-74.0060",
+      "location_order": 1,
+      "username": "admin",
+      "location_content": "Look under the rock.",
+      "extra": "It's not too heavy.",
+      "clue": "Next clue is near water.",
+      "score_points": 10
+    }
+  ],
+  "tracking": [
+    {
+      "id": "1",
+      "project_id": 1,
+      "location_id": 1,
+      "username": "player1",
+      "points": 10,
+      "participant_username": "player1"
+    }
+  ],
+  "project_participant_counts": [
+    {
+      "project_id": 1,
+      "number_participants": 5,
+      "id": "1061"
+    }
+  ],
+  "location_participant_counts": [
+    {
+      "project_id": 1,
+      "location_id": 1,
+      "number_participants": 3,
+      "id": "4fab"
+    }
+  ],
+  "location_content": [
+    {
+      "id": "1",
+      "location_id": 1,
+      "content_order": 1,
+      "content_type": "text",
+      "content_body": "Welcome to your first location!",
+      "username": "admin"
+    }
+  ]
+}
