@@ -1,6 +1,12 @@
 # StoryPath
 StoryPath is a location-based experience platform built for virtual museum exhibits, interactive tours, and clue-driven treasure hunts. It includes both a React Web App for creating experiences and a React Native App for exploring them in the real world.
 
+### Tech Stack
+| Platform        | Tech Used                                                                 |
+|----------------|---------------------------------------------------------------------------|
+| **Frontend Web**     | React, TypeScript, Vite, Tailwind CSS, Axios                            |
+| **Mobile App**       | React Native, TypeScript, Tailwind CSS, Axios, Expo                     |
+| **Backend**| Provided REST API or local json-server, ChatGPT API                               |
 ## Website
 
 The StoryPath web app provides a project creation interface with a REST API backend that gets shared with the app.
